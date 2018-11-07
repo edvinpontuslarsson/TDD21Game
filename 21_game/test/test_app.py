@@ -2,7 +2,7 @@ import sys
 import app
 
 
-sys.path.insert(0, '../21_game/app')
+sys.path.insert(0, '../app')
 
 
 def test_ping_should_pong():
