@@ -1,9 +1,9 @@
 import sys
-import __init__
+import app
 
 
 sys.path.insert(0, '../21_game/app')
 
 
 def test_ping_should_pong():
-    assert __init__.ping() == 'pong'
+    assert app.ping() == 'pong'
