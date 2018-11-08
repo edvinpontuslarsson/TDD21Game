@@ -10,8 +10,8 @@ import app
 class TestApp(unittest.TestCase):
 
     def test_ping_should_pong(self):
-        response = app.ping()
-        self.assertEqual(response, 'pong')
+        self.assertNotEqual(app.ping(), 'ping')
+        self.assertEqual(app.ping(), 'pong')
 
 
 if __name__ == '__main__':
