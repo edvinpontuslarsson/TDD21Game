@@ -10,4 +10,4 @@ to run tests
 
 Run command ``` python 21_game/app.py ``` 
 from the root directory or navigate to the 21_game directory
-and run  ``` python3 app.py ``` to run the application.
+and run  ``` python app.py ``` to run the application.
