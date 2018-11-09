@@ -1,5 +1,9 @@
+import os
 import sys
-sys.path.append('..')
+
+currentWorkingDirectory = os.getcwd()
+sys.path.append(currentWorkingDirectory + '/card_game/')
+
 from view import UserInterface
 import unittest
 

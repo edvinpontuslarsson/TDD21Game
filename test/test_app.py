@@ -1,6 +1,5 @@
 import access_project_directory
 import app
-from test_view import test_UserInterface
 import unittest
 
 
